@@ -21,17 +21,6 @@
                 </ul>
             </li>
         @endif
-        <li>
-            <a href="{{ route('admin.dashboard') }}">
-                <i class="fas fa-chalkboard-teacher"></i>
-                Administration
-            </a>
-            <ul class="dropdown">
-                <li>
-                    <p class="px-2">Accéder à l'administration des produits.</p>
-                </li>
-            </ul>
-        </li>
     </ul>
 </nav>
 @if(!Route::is('login'))

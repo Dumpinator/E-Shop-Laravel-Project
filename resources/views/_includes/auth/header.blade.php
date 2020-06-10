@@ -27,32 +27,15 @@
         <li>
             <a href="#">
                 <i class="fas fa-shopping-cart"></i>
-                <span class="badge badge-pill badge-danger">1</span>
+                <span class="badge badge-pill badge-danger">0</span>
             </a>
             <ul class="dropdown px-2 py-2">
                 <li>
                     <div class="d-flex">
-                        <img class="avatar border-rounded" src="https://blog.hyperiondev.com/wp-content/uploads/2019/02/Blog-Types-of-Web-Dev.jpg" />
+                        <div class="avatar image_selected img-text-shop set-bg" @if(isset($product->image)) data-setbg="/images/storage/products/{{ $product->user_id }}/{{ $product->image }}" @endif></div>
                         <div class="user-infos ml-3">
-                            <small>Titre du cours</small>
+                            <small>Product Name</small>
                             <p class="text-danger">29,99 €</p>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </li>
-        <li>
-            <a href="#">
-                <i class="fas fa-heart"></i>
-                <span class="badge badge-pill badge-danger">1</span>
-            </a>
-            <ul class="dropdown px-2 py-2">
-                <li>
-                    <div class="d-flex">
-                        <img class="avatar border-rounded" src="https://blog.hyperiondev.com/wp-content/uploads/2019/02/Blog-Types-of-Web-Dev.jpg" />
-                        <div class="user-infos ml-3">
-                            <small>Titre du cours</small>
-                            <p class="text-danger">19,99 €</p>
                         </div>
                     </div>
                 </li>

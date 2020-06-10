@@ -82,9 +82,9 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="copyright-text text-center">
-                        <p>© 2018
-                            <a href="#">DigiPro</a>. All rights reserved. Created by
-                            <a href="#">AazzTech</a>
+                        <p>© 2020
+                            <a href="https://www.ecole-multimedia.com/">School Project</a>. All rights reserved.<br> Created by
+                            <a href="https://github.com/Dumpinator">Dumpinator</a>
                         </p>
                     </div>
 

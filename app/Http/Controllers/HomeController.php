@@ -15,6 +15,7 @@ class HomeController extends Controller
         $this->middleware('auth');
     }
     */
+
     /**
      * Display a listing of the resource.
      *
@@ -23,6 +24,48 @@ class HomeController extends Controller
     public function index()
     {
         $products = DB::table('products')->get();
+        return view('shop', [
+            'products' => $products,
+        ]);
+    }
+
+        /**
+     * Display a men resources.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function indexMen()
+    {
+        $products = DB::table('products')->where('category_id', '1')->get();
+        
+        return view('shop', [
+            'products' => $products,
+        ]);
+    }
+
+            /**
+     * Display a men resources.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function indexWomen()
+    {
+        $products = DB::table('products')->where('category_id', '2')->get();
+        
+        return view('shop', [
+            'products' => $products,
+        ]);
+    }
+
+            /**
+     * Display a men resources.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function indexDiscount()
+    {
+        $products = DB::table('products')->where('state', 'solde')->get();
+        
         return view('shop', [
             'products' => $products,
         ]);

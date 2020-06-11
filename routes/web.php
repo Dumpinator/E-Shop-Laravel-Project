@@ -20,6 +20,9 @@ Route::get('/', function () {
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/products/{id}', 'HomeController@show')->name('show');
+Route::get('/home/men', 'HomeController@indexMen')->name('home.men');
+Route::get('/home/women', 'HomeController@indexWomen')->name('home.women');
+Route::get('/home/discount', 'HomeController@indexDiscount')->name('home.discount');
 
 
 // PRODUCT

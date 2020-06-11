@@ -13,11 +13,9 @@
                     Catégorie
                 </a>
                 <ul class="dropdown px-2 py-3">
-                    <li>
-                    <li><a href="#">Solde</a></li>
-                    <li><a href="#">Homme</a></li>
-                    <li><a href="#">Femme</a></li>
-                    </li>
+                    <li><a href="{{ route('home.discount') }}">Solde</a></li>
+                    <li><a href="{{ route('home.men') }}">Homme</a></li>
+                    <li><a href="{{ route('home.women') }}">Femme</a></li>
                 </ul>
             </li>
         @endif

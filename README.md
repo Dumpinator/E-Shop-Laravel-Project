@@ -1,10 +1,15 @@
 ## A propos du projet E-Shop
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Développement d'un site e-commerce dans le cadre d'un projet scolaire.
 
-- Git clonez le projet.
-- Dans le terminale, lancez la commande 'Composer Install'.
-- Git clonez le projet.
-- Git clonez le projet.
-- Git clonez le projet.
-- Git clonez le projet.
+- Cloner le projet.
+- Lancer la commande 'Composer Install'.
+- Lancer le server php avec MAMP (ou autre).
+- Configurer les options de connection avce votre BDD.
+- Lancer la commande 'php artisan serve'.
+
+## Axes d'améliorations
+- Gérer l'upload img de l'user et faire la partie accound.
+- Mieux gérer le status d'admin dans auth.
+- Ajout du panier.
+- Ajout du moyen de paiment(sripe et/ou paypal).

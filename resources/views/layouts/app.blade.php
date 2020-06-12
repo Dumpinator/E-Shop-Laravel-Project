@@ -4,9 +4,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    
     <script src="https://kit.fontawesome.com/907683f3ba.js"></script>
     <link href="{{ asset('css/elegant-icons.css') }}" rel="stylesheet">
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">

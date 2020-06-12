@@ -15,8 +15,8 @@
                     </nav>
                     <div class="product_name">{{ $product->name }}</div>
                     <div> <span class="product_price">{{ $product->price }} €</span></div>
-                    <div class="product-rating"><span class="badge badge-success"><i class="fa fa-star"></i> 4.5 Star</span><br> <span class="rating-review font-weight-light">45 Reviews</span></div>
-
+                    <div class="product-rating"><span class="badge badge-success">
+                        <i class="far fa-star"></i> 4.5 Star</span><br> <span class="rating-review font-weight-light">45 Reviews</span></div>
                     <hr class="singleline">
                     <div> <span class="product_info">{{ $product->description }}<span><br><span class="product_info">In Stock: {{ $product->stock }} units<span> </div>
                     <div>
